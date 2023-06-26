@@ -1,9 +1,18 @@
-# lomba
-web site Lomba Materiais
+# Zou – Farm Landing Page
 
-https://bpessanha21.github.io/lomba/
+### Demo
+* [Codepen](https://codepen.io/mustafadalga/pen/KKgYJxP) 
+* [Github Pages](https://mustafadalga.github.io/farm-landing-page/)
 
-Exemplos de sites para copiar o layout:
-aquitembico.com
 
-https://www.youtube.com/watch?v=ZJDjh6aHwJE&ab_channel=F%C3%A1bricadeC%C3%B3digo
+### Used technologies
+ * HTML5  
+ * SCSS - CSS3
+ * Pure JavaScript
+
+#### Resource Sketch Design
+ * https://uigarage.net/ui-kit/zou-farm-landing-page/
+ 
+ #### ScreenCapture
+ ![screencapture](https://user-images.githubusercontent.com/25087769/105427205-af700480-5c5d-11eb-80f9-b779df7f43ff.png)
+
