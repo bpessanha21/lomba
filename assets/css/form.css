@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap");
+
+.box {
+    background-image: linear-gradient(to top, #FF9D02, rgb(243, 213, 19));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    border-radius: 15px;
+    width: 35%;
+}
+
+fieldset {
+    border: 2px solid #FF9D02;
+    border-radius: 15px;
+}
+
+legend  {
+    color: rgb(72, 0, 0);
+    border: 1px solid #FF9D02;
+    box-shadow: 1px 10px 30px -10px #000000;
+    padding: 10px;
+    text-align: center;
+    background-color: #FF9D02;
+    border-radius: 8px;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #bc7605;
+    outline: none;
+    color: rgb(72, 0, 0);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s; 
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 10px;
+    color: #bc7605;
+}
+
+
+
+/* Criando o botão de enviar */
+
+.btn__submit {
+    background-color: #FF9D02;
+    margin-bottom: 20px;
+
+    border: 2px solid white;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 1px 10px 30px -10px #000000;
+    transition: all .5s;
+    z-index: 1;
+    }
+    /*
+      Button hover effect resource
+      https://codepen.io/alticreation/pen/zBZwOP
+      */
+    
+.btn__submit:hover {
+    background-color: #ffd102;
+    color: rgb(72, 0, 0);
+    }
+  
+  

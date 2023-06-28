@@ -1,11 +1,16 @@
 # Zou – Farm Landing Page
 
-### Site
-(https://bpessanha21.github.io/lomba/)
+### Demo
+* (https://bpessanha21.github.io/lomba/)
 
 
-### Used technologies
+### Tecnologia Usada
  * HTML5  
  * SCSS - CSS3
  * Pure JavaScript
+
+
+ 
+
+
 

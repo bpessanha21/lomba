@@ -516,6 +516,7 @@ header {
 }
 
 .works__step__content::before {
+  background-color: #f7f7f73c;
   position: absolute;
   content: '';
   left: 1.5rem;
@@ -527,13 +528,13 @@ header {
 }
 
 .works__step_title {
-
+  color: #000000;
   font-size: 2.4rem;
   flex: 5;
 }
 
 .works__step_description {
-
+  color: #000000;
   flex: 6;
   font-size: 1.6rem;
   font-weight: 400;
@@ -699,11 +700,6 @@ header {
   min-width: 25rem;
   margin-top: 4rem;
   box-shadow: 1px 10px 30px -10px #FF9D02;
-  /*
-    Button hover effect resource
-    https://codepen.io/alticreation/pen/zBZwOP
-    */
-  display: inline-block;
   transition: all .3s;
   position: relative;
   overflow: hidden;
@@ -732,6 +728,11 @@ header {
   transition: all .3s;
   z-index: -1;
 }
+
+/*
+    Button hover effect resource
+    https://codepen.io/alticreation/pen/zBZwOP
+    */
 
 .btn__farm--invest:hover {
   color: #FF9D02;
@@ -813,10 +814,9 @@ header {
   margin-top: 1.5rem;
   border: 1px solid #FF9D02;
   color: #ffffff;
-  /*
-    Button hover effect resource
-    https://codepen.io/alticreation/pen/zBZwOP
-    */
+  
+  /*Button hover effect resource
+    https://codepen.io/alticreation/pen/zBZwOP*/
   display: inline-block;
   transition: all .3s;
   position: relative;
@@ -1082,6 +1082,5 @@ header {
     width: 80%;
     min-width: initial;
   }
-  /*End Farm Invest*/
 }
 /*# sourceMappingURL=main.css.map */
