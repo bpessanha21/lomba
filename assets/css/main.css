@@ -77,14 +77,12 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 2;
 }
 
 .header__nav {
   padding: 2rem 0rem;
   margin: auto;
   display: flex;
-  align-items: center;
 }
 
 .header__logo {
@@ -99,7 +97,6 @@ header {
   flex: 8;
   display: flex;
   align-self:flex-end;
-  margin-bottom: 3px;
 }
 
 .header__nav__content.open {
@@ -111,7 +108,7 @@ header {
   flex: 10;
   display: flex;
   grid-gap: 5rem;
-  align-self: flex-end;
+  align-self: center;
 }
 
 .menu__link {
@@ -308,15 +305,14 @@ header {
 }
 
 .hero__img {
-  position: absolute;
   padding-top: 100px;
-  right: 0;
-  z-index: -1;
+ 
+ 
 }
 
 .hero__img img {
-  max-height: 70vh;
-  width: initial;
+  height: auto;
+  max-width: 90%;
 }
 /*End Hero */
 
@@ -396,7 +392,7 @@ header {
 }
 
 .opportunity__icon {
-  max-height: 5.6rem;
+  max-height: 10rem;
 }
 
 .opportunity__title {
@@ -568,7 +564,7 @@ header {
 
 .testimonials__body {
   margin: 8rem auto 4rem;
-  width: 100%;
+  width: 85%;
   overflow: hidden;
   padding: 2rem 0;
   position: relative;
@@ -856,13 +852,11 @@ header {
 }
 
 .footer__bottom__content {
-  width: 30%;
-  margin-top: 5rem;
+  width: 32%;
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
   margin: 5rem auto 0;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 
 .footer_copyright {
@@ -875,7 +869,6 @@ header {
   position: absolute;
   bottom: 0;
   right: -1.5rem;
-  max-width: 50rem;
 }
 
 /*End Footer*/
