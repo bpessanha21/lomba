@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap" rel="stylesheet">
 
 
 </head>
@@ -221,49 +222,47 @@
         <section class="farm-invest w-105" id="contato">
             <h2 class="farm-invest__title">Sua <span>Assistente Pessoal</span> é a Lomba Materiais</h2>
             <h5 class="farm-invest__title">Preencha os campos abaixo que entraremos em contato através do WhatsApp</h5>
-            
-                                
-            <form name="f_form" method="post" action="">
-                <h5 class="rotulo">Nome:</h5>
-                <input class="campo" name="f_nome" size="40" type="name"  maxlength="30" />
-                <br/><br/><br/>
-                
-                <label class="rotulo">Telefone:</label> 
-                <input class="campo" name="f_tel" size="40" type="tel"/>
-                <br/><br/><br/>
-                
-                <label class="rotulo">E-mail:</label> 
-                <input class="campo" name="f_eMail" size="40" type="email" maxlength="30"/>
-                <br/><br/><br/>
-                
-                
-                <input type="submit" name="submit" id="submit">
-            
-            
-            </form>
-            
-           
-            
-              <a href="#" class="btn btn__farm--invest">Enviar</a>
-
+            <div class="box">
+                <form action="">
+                    <fieldset>
+                        <legend>Formulário de Clientes</legend></br></legend>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text nome" name="nome" class="inputUser" required>
+                            <label for="nome" class="labelInput">Nome</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelInput">Telefone</label>
+                        </div>
+                        <br><br>
+                        <div class="inputBox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelInput">Email</label>
+                        </div>
+                        <br>
+                        <br>
+                        <input type="submit" href="#" name="submit" id="submit">
+                    </fieldset>
+                </form>
+            </div>
         </section>
-
         
-            <div class="footer__bottom">
-                <div class="footer__bottom__content w-105">
-                    <div class="footer__logo">
+       
+        <div class="footer__bottom__content w-105">
+            <div class="footer__logo">
                         <img src="assets/img/logo_lomba.png" alt="Logo">
                         <p class="footer_copyright">
                             © Todos os direitos reservados. Lomba Materiais (RJ 21 9999 9999).
                         </p>
-                    </div>
-                   
-                </div>
-                
             </div>
+        </div>
+
         </footer>
     </div>
-    <script src="assets/js/main.js" type="module"></script>
+
+<script src="assets/js/main.js" type="module"></script>
 
 </body>
 
