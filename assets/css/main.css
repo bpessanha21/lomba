@@ -678,7 +678,7 @@ header {
   text-align: center;
   background-color: #ffffff;
   filter: drop-shadow(0 0 0.75rem rgba(27, 31, 35, 0.15));
-  margin-bottom: 10rem;
+  margin-bottom: 10px;
 }
 
 .farm-invest__title {
@@ -689,54 +689,7 @@ header {
   color: #FF9D02;
 }
 
-.btn__farm--invest {
-  border: 1px solid #FF9D02;
-  color: #ffffff;
-  display: inline-block;
-  min-width: 25rem;
-  margin-top: 4rem;
-  box-shadow: 1px 10px 30px -10px #FF9D02;
-  transition: all .3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
 
-.btn__farm--invest:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #FF9D02;
-  z-index: -2;
-}
-
-.btn__farm--invest:before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  height: 100%;
-  background-color: #ffffff;
-  transition: all .3s;
-  z-index: -1;
-}
-
-/*
-    Button hover effect resource
-    https://codepen.io/alticreation/pen/zBZwOP
-    */
-
-.btn__farm--invest:hover {
-  color: #FF9D02;
-}
-
-.btn__farm--invest:hover:before {
-  width: 100%;
-}
 
 /*End Farm Invest*/
 /*Footer*/
@@ -1076,4 +1029,91 @@ header {
     min-width: initial;
   }
 }
-/*# sourceMappingURL=main.css.map */
+/*CSS do Formulário*/
+
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap");
+
+.box {
+    background-image: linear-gradient(to top, #FF9D02, rgb(243, 213, 19));
+    position: relative;
+    margin-top: 5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 15px;
+    border-radius: 15px;
+    width: 60%;
+}
+
+fieldset {
+    border: 2px solid #FF9D02;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+legend  {
+    color: rgb(72, 0, 0);
+    border: 1px solid #FF9D02;
+    box-shadow: 1px 10px 30px -10px #000000;
+    padding: 10px;
+    text-align: center;
+    background-color: #FF9D02;
+    border-radius: 8px;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #bc7605;
+    outline: none;
+    color: rgb(72, 0, 0);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s; 
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 10px;
+    color: #bc7605;
+}
+
+/* Criando o botão de enviar */
+
+#submit {
+    background-color: #FF9D02;
+    width: 80%;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    transition: all .5s;
+    z-index: 1;
+    }
+    /*
+      Button hover effect resource
+      https://codepen.io/alticreation/pen/zBZwOP
+      */
+    
+#submit:hover {
+    background-color: #ffd102;
+    color: rgb(72, 0, 0);
+    }
+  
+  
